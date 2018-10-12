@@ -1843,10 +1843,10 @@ that-build-library@^0.1.31:
     ts-node "^7.0.0"
     tsconfig-paths "^3.5.0"
 
-that-simple-model@^0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/that-simple-model/-/that-simple-model-0.0.13.tgz#91570dff8c0ca35bcf2ae991db0673e3b106f9b0"
-  integrity sha512-/z4HUvYKCF1JD0rGsyQ8yJ391cunlpskxHmdiqxYe4WyttWtEEMzFwYGkKUeupRRUk3U2K007aflS1kfp0nB3w==
+that-simple-model@^0.0.16:
+  version "0.0.16"
+  resolved "https://registry.yarnpkg.com/that-simple-model/-/that-simple-model-0.0.16.tgz#9269646d7ea839565e7ccb6a89fae9bd2ab09c00"
+  integrity sha512-XtmcMOMKBJR95R6Kr28YCbLJz9b/Mt8MQKuFHVySjv4xHrdoU1Q4FzLxVVcP+4cuSq8YTN38jIk9bDM1iAZuYw==
 
 to-fast-properties@^1.0.3:
   version "1.0.3"

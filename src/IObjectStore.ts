@@ -7,6 +7,11 @@ import { IObjectStoreQueryResult } from './IObjectStoreQueryResult'
  */
 export interface IObjectStore {
 	/**
+	 * Create/Amend any storage (e.g. Tables) for the Model
+	 */
+	construct<T extends IModel>(model: IModelClass<T>): Promise<any>
+
+	/**
 	 * Add/update an item to the store
 	 */
 	put<T extends IModel>(object: T): Promise<T>
@@ -25,7 +30,7 @@ export interface IObjectStore {
 	 */
 	query<T extends IModel>(
 		model: IModelClass<T>,
-		query: IObjectStoreQueryOptions
+		query?: IObjectStoreQueryOptions<T>
 	): Promise<IObjectStoreQueryResult<T>>
 
 	/**
