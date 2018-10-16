@@ -1,7 +1,7 @@
 {
     "name": "that-simple-objectstore",
     "description": "A simple objectstore interface for That Simple Model",
-    "version": "0.0.8",
+    "version": "0.0.10",
     "license": "MIT",
     "repository": {
         "type": "git",
@@ -17,7 +17,7 @@
         "publish": "node admin/scripts/publish.js"
     },
     "dependencies": {
-        "that-simple-model": "^0.0.17"
+        "that-simple-model": "^0.0.18"
     },
     "devDependencies": {
         "@types/jasmine": "^2.8.7",
