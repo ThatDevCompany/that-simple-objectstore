@@ -12,3 +12,8 @@ export interface IObjectStoreQueryResult<T extends IModel> {
 	status: ObjectStoreQueryStatus
 	items: Array<T>
 }
+
+export class ExampleObjectStoreQueryResult {
+	status = ObjectStoreQueryStatus.OK
+	items = []
+}

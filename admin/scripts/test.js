@@ -22,7 +22,6 @@ module.exports = Promise.resolve()
 			'--statements', 100,
 			'--per-file',
 			'--extension', '.ts',
-			'--exclude', "src/I*.ts",
 			'--exclude', "src/testing",
 			'--exclude', "**/index.ts",
 			'--exclude', '**/*.spec.ts',
