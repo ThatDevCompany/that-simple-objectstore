@@ -1,4 +1,5 @@
 # That Simple ObjectStore
+[![CircleCI](https://circleci.com/gh/ThatDevCompany/that-simple-objectstore.svg?style=svg)](https://circleci.com/gh/ThatDevCompany/that-simple-objectstore)
 
 ##  Overview
 An object persistance interface for That Simple Model
