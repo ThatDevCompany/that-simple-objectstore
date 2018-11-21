@@ -38,3 +38,25 @@ export interface IObjectStore {
 	 */
 	remove<T extends IModel>(object: T): Promise<void>
 }
+
+export class ExampleObjectStore {
+	put<T extends IModel>(object: T): Promise<T> {
+		return null
+	}
+	get<T extends IModel>(
+		model: IModelClass<T>,
+		primaryKey: string,
+		secondaryKey?: string
+	): Promise<T> {
+		return null
+	}
+	query<T extends IModel>(
+		model: IModelClass<T>,
+		query?: IObjectStoreQueryOptions<T>
+	): Promise<IObjectStoreQueryResult<T>> {
+		return null
+	}
+	remove<T extends IModel>(object: T): Promise<void> {
+		return null
+	}
+}
