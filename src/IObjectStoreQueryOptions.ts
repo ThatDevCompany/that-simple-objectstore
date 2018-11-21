@@ -8,5 +8,4 @@ export interface IObjectStoreQueryOptions<T extends IModel> {
 	filter?: (item: T) => boolean
 }
 
-export class ExampleObjectStoreQueryOptions {
-}
+export class ExampleObjectStoreQueryOptions {}

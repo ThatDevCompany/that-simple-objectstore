@@ -1,7 +1,7 @@
 {
     "name": "that-simple-objectstore",
     "description": "A simple objectstore interface for That Simple Model",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "MIT",
     "repository": {
         "type": "git",
