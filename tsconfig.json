@@ -2,7 +2,6 @@
 	"compileOnSave": false,
 	"compilerOptions": {
 		"target": "es6",
-		"outDir": "dist",
 		"module": "commonjs",
 		"sourceMap": false,
 		"noImplicitAny": false,
@@ -29,7 +28,6 @@
 		"src"
 	],
 	"exclude": [
-		"node_modules",
-		"**/*.spec.ts"
+		"node_modules"
 	]
 }
