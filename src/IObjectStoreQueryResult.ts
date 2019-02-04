@@ -10,7 +10,8 @@ export enum ObjectStoreQueryStatus {
  */
 export interface IObjectStoreQueryResult<T extends IModel> {
 	status: ObjectStoreQueryStatus
-	items: Array<T>
+	items: Array<T>,
+	continuationToken?: any
 }
 
 export class ExampleObjectStoreQueryResult {
