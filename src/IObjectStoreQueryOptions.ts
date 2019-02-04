@@ -5,7 +5,7 @@ import { IModel } from 'that-simple-model'
  */
 export interface IObjectStoreQueryOptions<T extends IModel> {
 	where?: {}
-	filter?: (item: T) => boolean,
+	filter?: (item: T) => boolean
 	continuationToken?: any
 }
 
