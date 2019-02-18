@@ -7,6 +7,7 @@ export interface IObjectStoreQueryOptions<T extends IModel> {
 	where?: {}
 	filter?: (item: T) => boolean
 	continuationToken?: any
+	continuationCount?: number
 }
 
 export class ExampleObjectStoreQueryOptions {}
